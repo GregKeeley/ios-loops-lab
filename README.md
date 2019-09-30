@@ -159,11 +159,10 @@ while (i > 3) {
     i += 1
 }
 
-// Your explanation here
 ```
 Answer
 ```
-
+The loop will run inifinitely until it crashes, because the i will always be greater than 3, especially when incrementing. Decrementing will correct it.
 ```
 ***
 ## Question 12
@@ -177,7 +176,19 @@ while (i > 3) {
     i += 1
 }
 ```
+Answer 
+```swift
+/*
+var i = 5
 
+for i in 1 while > 3 && < 9 {
+    print(i)
+    i += 1
+}
+*/
+
+// Not sure what function to use here
+```
 ***
 ## Question 13
 
@@ -233,6 +244,12 @@ repeat {
 
 What's the difference between `break` and `continue`?  Give an example that demonstrates their differences.
 
+Answer
+```
+Break - will stop the loop once the condition is met
+Continue - will proceed with the loop when the condition is met
+```
+
 ***
 ## Question 2
 
@@ -251,8 +268,8 @@ for i in 1...10 {
 []2
 []3
 []4
-[]5
-[]6
+[]5 ✅
+[]6✅
 []7
 []8
 []9
@@ -276,7 +293,7 @@ for i in 1...10 {
 []2
 []3
 []4
-[]5
+[]5✅
 []6
 []7
 []8
@@ -298,7 +315,12 @@ outerloop: for x in 1...3 {
     }
 }
 ```
-
+Answer
+```swift
+x = 1, y = 2
+x = 2, y = 2
+x = 3, y = 2
+```
 ***
 ## Question 5
 
