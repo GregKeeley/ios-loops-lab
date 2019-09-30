@@ -14,30 +14,74 @@
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
 
+Answer
+```swift
+for q1 in 1..<150 {
+    print(q1)
+}
+```
+
 ***
 ## Question 2
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
 
+Answer
+```swift
+for q2 in 142 ..< 160 {
+    print(q2)
+}
+```
 ***
 ## Question 3
 
 Write code that prints only the even numbers from 15 to 80, **inclusive.**
+
+Answer
+```swift 
+for q3 in 15...80 where q3 % 2 == 0 {
+    print(q3)
+}
+```
 
 ***
 ## Question 4
 
 Write code that prints only the odd numbers from 19 to 51, **inclusive.**
 
+Answer
+```swift
+for q4 in 19...51 where q4 % 2 == 1 {
+    print(q4)
+}
+```
 ***
 ## Question 5
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
 
+Answer
+```swift
+let q5 = 1...100
+
+for q5 in 1..<100 where q5 % 10 == 5 {
+    print(q5)
+}
+```
+
 ***
 ## Question 6
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
+
+Answer
+```swift
+let q6 = 1...40
+
+for q6 in 1...40 where q6 % 10 == 7 {
+    print(q6)
+}
+```
 
 ***
 ## Question 7
@@ -45,6 +89,13 @@ Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that are divisible by 3`
+
+Answer
+```swift
+for q7 in 20..<150 where q7 % 3 == 0 {
+    print(q7)
+}
+```
 
 ***
 ## Question 8
