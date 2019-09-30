@@ -104,12 +104,27 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that are divisible by 2 and 3`
 
+Answer
+```swift
+for q8 in 20...150 where q8 % 2 == 0 && q8 % 3 == 0 {
+    print(q8)
+}
+```
+
+
 ***
 ## Question 9
 
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that end with a 4`
+
+Answer
+```swift
+for q9 in 20..<150 where q9 % 10 == 4 {
+    print(q9)
+}
+```
 
 ***
 ## Question 10
@@ -118,6 +133,20 @@ Given a range of numbers from 20 to 150, print out all the numbers that follows 
 
 `Print out numbers: 31, 35, 40 to 60.`
 
+Answer
+```swift
+let q10 = 20...150
+
+for q10 in q10 where q10 == 31 {
+    print(q10)
+}
+for q10 in q10 where q10 == 34 {
+print(q10)
+}
+for q10 in 40...60 {
+    print(q10)
+}
+```
 ***
 ## Question 11
 
@@ -132,7 +161,10 @@ while (i > 3) {
 
 // Your explanation here
 ```
+Answer
+```
 
+```
 ***
 ## Question 12
 
